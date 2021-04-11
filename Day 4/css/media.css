@@ -1,0 +1,57 @@
+
+.green {
+    background-color: green;
+    height: 20px;
+    height: 100vh;
+}
+
+.red {
+    background-color: blue;
+    height: 20px;
+}
+
+/* Min width media queries */
+/* Smallest to largest */
+
+@media (min-width: 600px){
+    .green {
+        height: 40px;
+        background-color: red;
+    }
+}
+
+@media(min-width: 800px) {
+    .green {
+        background-color: orange;
+    }
+}
+
+@media(min-width: 1200px) {
+    .green {
+        background-color: aqua;
+    }
+    .header {
+        font-size: 100px;
+    }
+}
+
+/* Max width media queries */
+@media (max-width: 1200px){
+    .red {
+        height: 40px;
+        background-color: red;
+    }
+}
+
+@media(max-width: 800px) {
+    .red {
+        background-color: orange;
+    }
+}
+
+@media(max-width: 600px) {
+    .red {
+        background-color: aqua;
+    }
+}
+
