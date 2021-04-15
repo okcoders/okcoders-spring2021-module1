@@ -1,0 +1,50 @@
+.viewport {
+    /* font-size: 50vh; */
+    /* height: 50vh; */
+    background-color: aqua;
+}
+
+.percent-text {
+    height: 30%;
+    background-color: blue;
+}
+
+.percent {
+    /* height: 50vh; */
+    background-color: black;
+}
+
+/* 1em = 16px by default */
+.em {
+    /* font-size: 50px; */
+    /* font-size: 1em; */
+    padding: 1em;
+    margin: 2em;
+    /* padding: 16px; */
+    background-color: black;
+    color: white;
+}
+
+.em-parent {
+    font-size: 16px;
+}
+
+/* Rem Units */
+/* 1rem = 16px by default */
+html {
+    font-size: 20px;
+
+}
+
+.rem {
+    background-color: blue;
+    padding: 1rem;
+    font-size: 1rem;
+    /* padding: 32px; */
+}
+
+@media (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+}
