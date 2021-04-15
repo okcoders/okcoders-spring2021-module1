@@ -19,3 +19,14 @@
   * Coding Activity - Build a Header
   * Responsive Design
     * Media Queries 
+
+## Day 5:
+* CSS Units:
+  * EM, REM, %, viewport, px
+  * Responsive Text
+* Intro to Bootstrap
+  * How to add to project
+  * Typography
+  * Colors
+  * Utilities (margin/padding)
+  * Components
