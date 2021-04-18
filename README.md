@@ -30,3 +30,9 @@
   * Colors
   * Utilities (margin/padding)
   * Components
+
+## Day 6:
+* Bootstrap Grid System
+* Bootstrap Flex for Alignment
+ * justify-content-*
+ * align-items-*
