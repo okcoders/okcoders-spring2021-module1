@@ -1,0 +1,102 @@
+/* CSS applied in class */
+.image-header {
+    background-image: url(../img/computer.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.header-text {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 50px black;
+    max-width: 33%;
+}
+
+.header-btn {
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border: black;
+    margin-right: 20px;
+
+}
+
+.header-btn:hover {
+    transform: scale(1.2);
+    transition: ease-out;
+    transition-duration: 1s;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Making it responsive */
+@media (max-width: 800px) {
+    .header-text {
+        /* Need to define new width */
+        width: 75vw;
+        /* Need to override our previously set max-width */
+        max-width: 100%;
+        /* Change it's position */
+        top: 50%;
+        left: 50%;
+    }
+
+    /* Reduce font sizes */
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+
+    button {
+        margin-bottom: 20px;
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Centering Styles */
+/* .text-holder {
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    position: relative;
+}
+
+.container-text {
+    border: solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+}
+
+h3 {
+    transform: translateX(50px);
+    transform: translateY(100px);
+} */

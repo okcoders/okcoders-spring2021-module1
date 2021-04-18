@@ -1,0 +1,9 @@
+.height {
+    height: 25vh;
+}
+
+.header {
+    background-image: url("tea.jpg");
+    height: 70vh;
+    background-size: cover;
+}

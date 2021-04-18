@@ -1,0 +1,13 @@
+.header {
+    background-image: url(img/people.jpg);
+    background-size: cover;
+    height: 70vh;
+}
+
+.text-box {
+    background-color: white;
+}
+
+.row {
+    height: inherit;
+}
