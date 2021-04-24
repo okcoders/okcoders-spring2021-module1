@@ -17,6 +17,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Montserrat:wght@200;400;500&display=swap" rel="stylesheet">
 
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3912001f1d.js" crossorigin="anonymous"></script>
     <title>Anna Young Portfolio</title>
   </head>
   <body>
@@ -29,16 +31,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -52,6 +54,7 @@
                 <div class="col text-center">
                     <h1 class="header-1">Anna Young</h1>
                     <p class="paragraph-1">Full Stack Developer</p>
+                    <a target="_blank" href="resume.pdf" class="btn btn-dark">See Resume</a>
                 </div>
             </div>
         </div>
@@ -59,7 +62,7 @@
     <!-- End of Header Section -->
 
     <!-- Start of About Section -->
-    <section class="section_about m-5">
+    <section class="section_about m-5" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 d-flex justify-content-center">
@@ -82,7 +85,7 @@
     <!-- End of About Section -->
     
     <!-- Start of Skills Section -->
-    <section class="section_skills py-5">
+    <section class="section_skills py-5" id="skills">
         <div class="container">
             <h2 class="header-2 text-center">Skills</h2>
             <div class="row">
@@ -97,15 +100,33 @@
                         <tbody>
                           <tr>
                             <th scope="row">HTML</th>
-                            <td>Mark</td>
+                            <td>
+                              <i class="fas fa-star skills-icon"></i>
+                              <i class="fas fa-star skills-icon"></i>
+                              <i class="fas fa-star skills-icon"></i>
+                              <i class="fas fa-star skills-icon"></i>
+                              <i class="fas fa-star skills-icon"></i>
+                            </td>
                           </tr>
                           <tr>
                             <th scope="row">CSS</th>
-                            <td>Jacob</td>
+                            <td>
+                              <i class="fas fa-star skills-icon"></i>
+                              <i class="fas fa-star skills-icon"></i>
+                              <i class="fas fa-star skills-icon"></i>
+                              <i class="fas fa-star skills-icon"></i>
+                              <i class="fas fa-star skills-icon"></i>
+                            </td>
                           </tr>
                           <tr>
                             <th scope="row">Bootstrap</th>
-                            <td>Larry</td>
+                            <td>
+                              <i class="fas fa-star skills-icon"></i>
+                              <i class="fas fa-star skills-icon"></i>
+                              <i class="fas fa-star skills-icon"></i>
+                              <i class="fas fa-star skills-icon"></i>
+                              <i class="fas fa-star skills-icon"></i>
+                            </td>
                           </tr>
                         </tbody>
                       </table>
@@ -114,6 +135,91 @@
         </div>
     </section>
     <!-- End of Skills Section -->
+    <!-- Start of Projects Section -->
+    <section class="section_projects py-5" id="projects">
+      <div class="container">
+        <h2 class="header-2 text-center mb-5">Projects</h2>
+        <div class="row">
+          <div class="col-lg-4 d-flex mb-5 mb-lg-0 justify-content-center">
+            <div class="card" style="width: 18rem;">
+              <div class="project-img-container">
+                <img src="img/drone.jpg" class="card-img-top project-img" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title header-3">Drone Project</h5>
+                <p class="card-text paragraph-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="project1.html" class="btn btn-outline-secondary btn-green">See Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex mb-5 mb-lg-0 justify-content-center">
+            <div class="card" style="width: 18rem;">
+              <div class="project-img-container">
+                <img src="img/radar.jpg" class="card-img-top project-img" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title header-3">Radar Project</h5>
+                <p class="card-text paragraph-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-outline-secondary btn-green">See Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 d-flex justify-content-center">
+            <div class="card" style="width: 18rem;">
+              <div class="project-img-container">
+                <img src="img/robot.jpg" class="card-img-top project-img" alt="...">
+              </div>
+              <div class="card-body">
+                <h5 class="card-title header-3">Robot Project</h5>
+                <p class="card-text paragraph-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-outline-secondary btn-green">See Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Projects Section -->
+    <!-- Start of Contact Section -->
+    <section class="section_contact py-5" id="contact">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 mb-5 mb-lg-0 d-flex flex-column justify-content-center">
+            <h2 class="header-2 text-center">Let's Connect</h2>
+            <div class="row">
+              <div class="col-6 mx-auto d-flex justify-content-around">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-facebook"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-10 mx-auto">
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Name</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Message</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <button type="submit" class="btn btn-outline-secondary btn-green">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Contact Section -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

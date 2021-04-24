@@ -12,6 +12,12 @@
     font-weight: 400;
 }
 
+.header-3 {
+    font-family: var(--header-font);
+    font-size: 2rem;
+    font-weight: 400;
+}
+
 /* Paragraphs */
 .paragraph-1 {
     font-family: var(--paragraph-font);
@@ -22,5 +28,11 @@
 .paragraph-2 {
     font-family: var(--paragraph-font);
     font-size: 1.1rem;
+    font-weight: 200;
+}
+
+.paragraph-3 {
+    font-family: var(--paragraph-font);
+    font-size: .9rem;
     font-weight: 200;
 }
