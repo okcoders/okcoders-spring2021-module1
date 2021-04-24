@@ -36,3 +36,10 @@
 * Bootstrap Flex for Alignment
  * justify-content-*
  * align-items-*
+
+## Day 7:
+* Build a Portfolio using Bootstrap and CSS!
+
+## Day 8:
+* Materials also under Day 7 - Finished Portfolio
+* Adding Additional Pages to your website
